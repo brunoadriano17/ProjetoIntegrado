@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Ever Green - Termos de Uso"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,82,0,0,1,-96"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="0"/>
+    <SyntheticProperty name="generateSize" type="boolean" value="true"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="btnAceitar" min="-2" pref="76" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="btnSair" min="-2" pref="76" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" pref="380" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="220" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnAceitar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnSair" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="btnAceitar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Aceitar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAceitarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSair">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sair"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSairActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="lineWrap" type="boolean" value="true"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="O sistema Evergreen foi criado com o intuito de ajudar as pessoas a desenvolver planta&#xe7;&#xf5;es dom&#xe9;sticas e incentivar o consumo de alimentos org&#xe2;nicos, evitando poss&#xed;veis doen&#xe7;as causada pela m&#xe1; alimenta&#xe7;&#xe3;o.. O acesso ao Evergreen representa a aceita&#xe7;&#xe3;o expressa e irrestrita dos termos de uso abaixo descritos. Se voc&#xea; n&#xe3;o concorda com os termos, por favor, n&#xe3;o acesse nem utilize este software.&#xa;O visitante poder&#xe1; usar este software apenas para finalidades l&#xed;citas. Este espa&#xe7;o n&#xe3;o poder&#xe1; ser utilizado para para publicar, enviar, distribuir ou divulgar conte&#xfa;dos ou informa&#xe7;&#xe3;o de car&#xe1;ter difamat&#xf3;rio, obsceno ou il&#xed;cito, inclusive informa&#xe7;&#xf5;es de propriedade exclusiva pertencentes a outras pessoas ou empresas, bem como marcas registradas ou informa&#xe7;&#xf5;es protegidas por direitos autorais, sem a expressa autoriza&#xe7;&#xe3;o do detentor desses direitos. Ainda, o visitante n&#xe3;o poder&#xe1; usar o sistema Evergreen para obter ou divulgar informa&#xe7;&#xf5;es pessoais, inclusive endere&#xe7;os na Internet, sobre os usu&#xe1;rios do site.&#xa;A Evergreen empenha-se em manter a qualidade, atualidade e autenticidade das informa&#xe7;&#xf5;es do site, mas seus criadores e colaboradores n&#xe3;o se responsabilizam por eventuais falhas nos servi&#xe7;os ou inexatid&#xe3;o das informa&#xe7;&#xf5;es oferecidas. O usu&#xe1;rio n&#xe3;o deve ter como pressuposto que tais servi&#xe7;os e informa&#xe7;&#xf5;es s&#xe3;o isentos de erros ou ser&#xe3;o adequados aos seus objetivos particulares. Os criadores e colaboradores tampouco assumem o compromisso de atualizar as informa&#xe7;&#xf5;es, e reservam-se o direito de alterar as condi&#xe7;&#xf5;es de uso ou pre&#xe7;os dos servi&#xe7;os e produtos oferecidos no site a qualquer momento.   &#xa;O acesso ao site software Evergreen &#xe9; gratuito. A Evergreen poder&#xe1; criar &#xe1;reas de acesso exclusivo aos seus clientes ou para terceiros especialmente autorizados. &#xa;Os criadores e colaboradores do Evergreen poder&#xe3;o a seu exclusivo crit&#xe9;rio e em qualquer tempo, modificar ou desativar o sistema, bem como limitar, cancelar ou suspender seu uso ou o acesso. Tambem estes Termos de Uso poder&#xe3;o ser alterados a qualquer tempo. Visite regularmente esta p&#xe1;gina e consulte  os Termos ent&#xe3;o vigentes. Algumas disposi&#xe7;&#xf5;es destes Termos podem ser substitu&#xed;das por termos ou avisos legais expressos localizados em determinadas p&#xe1;ginas deste site. &#xa;Erros e falhas&#xa;Os documentos, informa&#xe7;&#xf5;es, imagens e gr&#xe1;ficos publicados neste site podem conter imprecis&#xf5;es t&#xe9;cnicas ou erros tipogr&#xe1;ficos. Em nenhuma hip&#xf3;tese a Evergreen e/ou seus respectivos fornecedores ser&#xe3;o respons&#xe1;veis por qualquer dano direto ou indireto decorrente da impossibilidade de uso, perda de dados ou lucros, resultante do acesso e desempenho do software, dos servi&#xe7;os oferecidos ou de informa&#xe7;&#xf5;es dispon&#xed;veis neste sistema. O acesso aos servi&#xe7;os, materiais, informa&#xe7;&#xf5;es e facilidades contidas neste website n&#xe3;o garante a sua qualidade.&#xa;Limita&#xe7;&#xe3;o da responsabilidade&#xa;Os materiais s&#xe3;o fornecidos neste website sem nenhuma garantia expl&#xed;cita ou impl&#xed;cita de comercializa&#xe7;&#xe3;o ou adequa&#xe7;&#xe3;o a qualquer objetivo espec&#xed;fico. Em nenhum caso a Evergreen ou os seus colaboradores ser&#xe3;o responsabilizados por quaisquer danos, incluindo lucros cessantes, interrup&#xe7;&#xe3;o de neg&#xf3;cio, ou perda de informa&#xe7;&#xe3;o que resultem do uso ou da incapacidade de usar os materiais. A Evergreen n&#xe3;o garante a precis&#xe3;o ou integridade das informa&#xe7;&#xf5;es, textos, gr&#xe1;ficos, links e outros itens dos materiais.&#xa;A Evergreen n&#xe3;o se responsabiliza pelo conte&#xfa;do dos artigos e informa&#xe7;&#xf5;es aqui publicadas, uma vez que os textos s&#xe3;o de autoria de terceiros e n&#xe3;o traduzem, necessariamente, a opini&#xe3;o do website. &#xa;A Evergreen tampouco &#xe9; respons&#xe1;vel pela viola&#xe7;&#xe3;o de direitos autorais decorrente de informa&#xe7;&#xf5;es, documentos e materiais publicados neste website, comprometendo-se a retir&#xe1;-los do ar assim que notificado da infra&#xe7;&#xe3;o.&#xa;Informa&#xe7;&#xf5;es enviadas pelos usu&#xe1;rios e colaboradores&#xa;Qualquer material, informa&#xe7;&#xe3;o, artigos ou outras comunica&#xe7;&#xf5;es que forem transmitidas, enviadas  ou publicadas neste sistema ser&#xe3;o considerados informa&#xe7;&#xe3;o n&#xe3;o confidencial, e qualquer viola&#xe7;&#xe3;o aos direitos dos seus criadores n&#xe3;o ser&#xe1; de responsabilidade da Evergreen. &#xc9; terminantemente proibido transmitir, trocar ou publicar, atrav&#xe9;s deste website, qualquer material de cunho obsceno, difamat&#xf3;rio ou ilegal, bem como textos ou cria&#xe7;&#xf5;es de terceiros sem a autoriza&#xe7;&#xe3;o do autor. A Evergreen reserva-se o direito de restringir o acesso &#xe0;s informa&#xe7;&#xf5;es enviadas por terceiros aos seus usu&#xe1;rios.  &#xa;A Evergreen poder&#xe1;, mas n&#xe3;o &#xe9; obrigado, a monitorar, revistar e restringir o acesso a qualquer &#xe1;rea no site onde usu&#xe1;rios transmitem e trocam informa&#xe7;&#xf5;es entre si, incluindo, mas n&#xe3;o limitado a, salas de chat, centro de mensagens ou outros foruns de debates, podendo retirar do ar ou retirar o acesso a qualquer destas informa&#xe7;&#xf5;es ou comunica&#xe7;&#xf5;es.  Por&#xe9;m, a Evergreen n&#xe3;o &#xe9; respons&#xe1;vel pelo conte&#xfa;do de qualquer uma das informa&#xe7;&#xf5;es trocadas entre os usu&#xe1;rios, sejam elas l&#xed;citas ou il&#xed;citas.&#xa;Links para sites de terceiros&#xa;Os sites apontados n&#xe3;o est&#xe3;o sob o controle do Evergreen que n&#xe3;o &#xe9; respons&#xe1;vel pelo conte&#xfa;do de qualquer outro website indicado ou acessado por meio do software reserva-se o direito de eliminar qualquer link ou direcionamento a outros sites ou servi&#xe7;os a qualquer momento. O Psylibras n&#xe3;o endossa firmas ou produtos indicados, acessados ou divulgados atrav&#xe9;s deste website, tampouco pelos an&#xfa;ncios aqui publicados, reservando-sese o direito de publicar este alerta em suas p&#xe1;ginas eletr&#xf4;nicas sempre que considerar necess&#xe1;rio.&#xa;Direitos autorais e propriedade intelectual&#xa;Os documentos, conte&#xfa;dos e cria&#xe7;&#xf5;es contidos neste website pertencem aos seus criadores e colaboradores. A autoria dos conte&#xfa;do, material e imagens exibidos no www.psyduck.com.br &#xe9; protegida por leis nacionais e internacionais. N&#xe3;o podem ser copiados, reproduzidos, modificados, publicados, atualizados, postados, transmitidos ou distribu&#xed;dos de qualquer maneira sem autoriza&#xe7;&#xe3;o pr&#xe9;via e por escrito da Psylibras.&#xa;As imagens contidas neste website s&#xe3;o aqui incorporadas apenas para fins de visualiza&#xe7;&#xe3;o, e, salvo autoriza&#xe7;&#xe3;o expressa por escrito, n&#xe3;o podem ser gravadas ou baixadas via download. A reprodu&#xe7;&#xe3;o ou armazenamento de materiais recuperados a partir deste servi&#xe7;o sujeitar&#xe1; os infratores &#xe0;s penas da lei.&#xa;O nome do site (Psylibras) , seu logotipo, o nome de dom&#xed;nio para acesso na Internet, bem como todos os elementos caracter&#xed;sticos da tecnologia desenvolvida e aqui apresentada, sob a forma da articula&#xe7;&#xe3;o de bases de dados, constituem marcas registradas e propriedades intelectuais privadas e todos os direitos decorrentes de seu registro s&#xe3;o assegurados por lei. Alguns direitos de uso podem ser cedidos por Psylibras em contrato ou licen&#xe7;a especial, que pode ser cancelada a qualquer momento se n&#xe3;o cumpridos os seus termos.  &#xa;As marcas registradas da Psylibras s&#xf3; podem ser usadas publicamente com autoriza&#xe7;&#xe3;o expressa. O uso destas marcas registradas em publicidade e promo&#xe7;&#xe3;o de produtos deve ser adequadamente informado.&#xa;Reclama&#xe7;&#xf5;es sobre viola&#xe7;&#xe3;o de direitos autorais&#xa;A Psylibras respeita a propriedade intelectual de outras pessoas ou empresas e solicitamos aos nossos membros que fa&#xe7;am o mesmo. Toda e qualquer viola&#xe7;&#xe3;o de direitos autorais dever&#xe1; ser notificada ao Psyduck e acompanhada dos documentos e informa&#xe7;&#xf5;es que confirmam a autoria. A notifica&#xe7;&#xe3;o poder&#xe1; ser enviada pelos e-mails constantes do site.&#xa;Este site &#xe9; controlado e operado pela Psyduck a partir de seu escrit&#xf3;rio na cidade de Caraguatatuba estado de S&#xe3;o Paulo e n&#xe3;o garante que o conte&#xfa;do ou materiais estejam dispon&#xed;veis para uso em outras localidades. Seu acesso &#xe9; proibido em territ&#xf3;rios onde o conte&#xfa;do seja considerado ilegal. Aqueles que optarem por acessar este site a partir de outras localidades o far&#xe3;o por iniciativa pr&#xf3;pria e ser&#xe3;o respons&#xe1;veis pelo cumprimento das leis locais aplic&#xe1;veis. Os materiais n&#xe3;o dever&#xe3;o ser usados ou exportados em descumprimento das leis brasileiras sobre exporta&#xe7;&#xe3;o. Qualquer pend&#xea;ncia com rela&#xe7;&#xe3;o aos materiais ser&#xe1; dirimida pelas leis brasileiras.&#xa;O acesso ao Psylibras representa a aceita&#xe7;&#xe3;o expressa e irrestrita dos termos de uso acima descritos.&#xa;&#xa;"/>
+            <Property name="wrapStyleWord" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Termos de Uso"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
